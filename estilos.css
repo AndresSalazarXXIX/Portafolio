@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color:#ece6f7 !important;
+}
+
+header{
+    margin-top:12em;
+}
+
+#sobreMi{
+    background-color:#ece6f7;
+    margin: 80px 0;
+    padding: 90px;
+}
+#exp{
+    margin: 80px 0;
+    padding: 60px;
+}
+
+#contact{
+    background-color:#ece6f7;
+    margin-top: 80px ;
+    padding: 60px;
+}
+
+img{
+    width: 100%;
+}
+
+
+.btn{
+    border: 1px solid rgb(0, 0, 0);
+    width: 90%;
+    margin: 0 auto;
+}
+.btn:hover{
+    background-color: #4400b7;
+    color: #ffff;
+
+}

@@ -31,11 +31,11 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item  ">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link" href="#sobreMi">Sobre mi</a>
                     </li>
                     <li class="nav-item">
@@ -70,13 +70,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 animateLeft ">
-                    <h2 class="text-center mb-5"><b>Sobre Mí</b> </h2>
+                    <h2 class="text-center"><b>Sobre Mí</b> </h2>
                     <p class="h5 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo nam
                         est iste ut eos iusto
                         magni dolore quasi doloremque eligendi quia voluptate commodi consequuntur numquam provident et,
                         consequatur odit quos.</p>
                 </div>
-                <div class="col-md-6 animateRight mt-6 ">
+                <div class="col-md-6 animateRight mt-3 ">
                     <img src="img/imgSobreMi.svg" alt="imgSobreMi">
 
                 </div>
@@ -123,21 +123,27 @@
         <div class="container">
             <h2 class="text-center mb-5"><b>Contacto</b></h2>
             <div class="row">
-                <div class="col-md-6 animateLeft">
-                    <img src="img/contact.svg" alt="">
+                <div class="col-md-6 animateLeft ">
+                    <img src="img/contact.svg" alt="imagen contac">
                 </div>
                 <div class="col-md-6 animateTop">
-                    <form action="index.php" method="POST" class="card">
+                    <form action="index.php" method="POST" class="card form">
                         <div class="card-body">
+                        
                             <div class="form-group">
-                                <input type="text" name="Nombre" placeholder="Nombre" class="form-control" required="">
+                            <label for="Nombre" class="mt-2 mb-3">Nombre:</label>
+                                <input id="Nombre" type="text" name="Nombre" placeholder="Nombre" class="form-control" required="">
                             </div>
+                            
                             <div class="form-group">
-                                <input type="Email" name="Email" placeholder="Email" class="form-control mt-3"
+                            <label for="email" class="mt-3">Email:</label>
+                                <input id="email" type="Email" name="Email" placeholder="Email" class="form-control mt-3"
                                     required="">
                             </div>
+                            
                             <div class="form-group">
-                                <textarea class="form-control mt-3" name="Mensaje" cols="30" placeholder="Mensaje"
+                            <label for="text" class="mt-3">Mensaje:</label>
+                                <textarea id="text" class="form-control mt-3 " name="Mensaje" cols="30" placeholder="Mensaje"
                                     required=""></textarea>
                             </div>
 
@@ -154,7 +160,7 @@
 <!-- booststrap-js -->
 <script src="js/bootstrap.min.js"></script>
 <!-- animacion js -->
-<script src="animation.js"></script>
+<script src="main.js"></script>
 
 </html>
 <!-- codigo php -->

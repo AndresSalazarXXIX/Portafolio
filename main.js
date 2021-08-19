@@ -14,21 +14,21 @@ sr.reveal('.animateLeft',{
 // animaciones de targetas
 
 sr.reveal('.animateLeft1',{
-    duration:8000,
+    duration:4000,
     origin:'left',
     distance:'100px'
 
 });
 
 sr.reveal('.animateLeft2',{
-    duration:6000,
+    duration:3000,
     origin:'left',
     distance:'100px'
 
 });
 
 sr.reveal('.animateLeft3',{
-    duration:4000,
+    duration:2000,
     origin:'left',
     distance:'100px'
 
@@ -48,4 +48,9 @@ sr.reveal('.animateRight',{
     distance:'100px'
 
 });
+
+//evitamos el reenvio del fomulario
+if(window.history.replaceState){
+window.history.replaceState(null, null,window.location.href);
+}
 

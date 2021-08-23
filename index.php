@@ -76,7 +76,7 @@
                         magni dolore quasi doloremque eligendi quia voluptate commodi consequuntur numquam provident et,
                         consequatur odit quos.</p>
                 </div>
-                <div class="col-md-6 animateRight mt-3 ">
+                <div class="col-md-6 animateBottom mt-3 ">
                     <img src="img/imgSobreMi.svg" alt="imgSobreMi">
 
                 </div>

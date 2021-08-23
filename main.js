@@ -1,7 +1,15 @@
 window.sr=ScrollReveal();
 sr.reveal('.navbar',{
     duration:2000,
-    origin:'bottom'
+    origin:'top',
+    distance:'100px'
+
+});
+
+sr.reveal('.animateBottom',{
+    duration:2000,
+    origin:'bottom',
+    distance:'100px'
 
 });
 
@@ -14,23 +22,27 @@ sr.reveal('.animateLeft',{
 // animaciones de targetas
 
 sr.reveal('.animateLeft1',{
-    duration:4000,
+    duration:2000,
     origin:'left',
-    distance:'100px'
+    distance:'100px',
+    delay: 1000
+    
 
 });
 
 sr.reveal('.animateLeft2',{
-    duration:3000,
+    duration:2000,
     origin:'left',
-    distance:'100px'
+    distance:'100px',
+    delay: 1500
 
 });
 
 sr.reveal('.animateLeft3',{
     duration:2000,
     origin:'left',
-    distance:'100px'
+    distance:'100px',
+    delay: 2000
 
 });
 // fin animaciones de targetas
@@ -48,6 +60,7 @@ sr.reveal('.animateRight',{
     distance:'100px'
 
 });
+
 
 //evitamos el reenvio del fomulario
 if(window.history.replaceState){

@@ -71,10 +71,11 @@
             <div class="row">
                 <div class="col-md-6 animateLeft ">
                     <h2 class="text-center"><b>Sobre Mí</b> </h2>
-                    <p class="h5 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo nam
-                        est iste ut eos iusto
-                        magni dolore quasi doloremque eligendi quia voluptate commodi consequuntur numquam provident et,
-                        consequatur odit quos.</p>
+                    <p class="h5 text-center">Soy Juan Andres Arango Salazar tengo 16 años y soy un desarrollador
+                        Front End, me gustan los diseños modernos y minimalistas soy una persona autodidacta apasionada
+                        por aprender las nuevas tecnologías.Estudio Ingeniera en desarrollo de software donde estoy
+                        cursando actualmente el segundo semestre, donde he tenido la oportunidad de conocer tecnologias
+                        como HTML, Css, C#, PHP, JavaScript y Python.</p>
                 </div>
                 <div class="col-md-6 animateBottom mt-3 ">
                     <img src="img/imgSobreMi.svg" alt="imgSobreMi">
@@ -92,8 +93,7 @@
                     <div class="card mt-3">
                         <img class="card-img-top" src="img/img_exp.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text pb-5">Tengo mas de <b>1 año de experiencia</b>  desarrollando y perfeccionando mis habilidades y conocimiento como un Frond-End Developer. </p>
                         </div>
                     </div>
                 </div>
@@ -101,8 +101,9 @@
                     <div class="card mt-3">
                         <img class="card-img-top" src="img/img_exp_2.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Tengo nociones básicas en <b> tecnologías de desarrollo web</b> como
+                                HTML, CSS,
+                                JavaScript, PHP y FrameWork de desarrollo web como Bootstrap.</p>
                         </div>
                     </div>
                 </div>
@@ -110,8 +111,8 @@
                     <div class="card mt-3 ">
                         <img class="card-img-top" src="img/img_exp_3.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text pb-4 mt-2">Desarrollo páginas web con <b> Responsive Design</b> logrando que
+                                se adapten a todo tipo de dispositivos tanto moviles como de escritorio.</p>
                         </div>
                     </div>
                 </div>
@@ -129,22 +130,23 @@
                 <div class="col-md-6 animateTop">
                     <form action="index.php" method="POST" class="card form">
                         <div class="card-body">
-                        
+
                             <div class="form-group">
-                            <label for="Nombre" class="mt-2 mb-3">Nombre:</label>
-                                <input id="Nombre" type="text" name="Nombre" placeholder="Nombre" class="form-control" required="">
-                            </div>
-                            
-                            <div class="form-group">
-                            <label for="email" class="mt-3">Email:</label>
-                                <input id="email" type="Email" name="Email" placeholder="Email" class="form-control mt-3"
+                                <label for="Nombre" class="mt-2 mb-3">Nombre:</label>
+                                <input id="Nombre" type="text" name="Nombre" placeholder="Nombre" class="form-control"
                                     required="">
                             </div>
-                            
+
                             <div class="form-group">
-                            <label for="text" class="mt-3">Mensaje:</label>
-                                <textarea id="text" class="form-control mt-3 " name="Mensaje" cols="30" placeholder="Mensaje"
-                                    required=""></textarea>
+                                <label for="email" class="mt-3">Email:</label>
+                                <input id="email" type="Email" name="Email" placeholder="Email"
+                                    class="form-control mt-3" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="text" class="mt-3">Mensaje:</label>
+                                <textarea id="text" class="form-control mt-3 " name="Mensaje" cols="30"
+                                    placeholder="Mensaje" required=""></textarea>
                             </div>
 
                         </div>

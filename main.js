@@ -25,24 +25,24 @@ sr.reveal('.animateLeft1',{
     duration:2000,
     origin:'left',
     distance:'100px',
-    delay: 1000
+    
     
 
 });
 
 sr.reveal('.animateLeft2',{
-    duration:2000,
+    duration:3000,
     origin:'left',
     distance:'100px',
-    delay: 1500
+   
 
 });
 
 sr.reveal('.animateLeft3',{
-    duration:2000,
+    duration:4000,
     origin:'left',
     distance:'100px',
-    delay: 2000
+    
 
 });
 // fin animaciones de targetas

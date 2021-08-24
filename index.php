@@ -71,11 +71,11 @@
             <div class="row">
                 <div class="col-md-6 animateLeft ">
                     <h2 class="text-center"><b>Sobre Mí</b> </h2>
-                    <p class="h5 text-center">Soy Juan Andres Arango Salazar tengo 16 años y soy un desarrollador
-                        Front End, me gustan los diseños modernos y minimalistas soy una persona autodidacta apasionada
-                        por aprender las nuevas tecnologías.Estudio Ingeniera en desarrollo de software donde estoy
-                        cursando actualmente el segundo semestre, donde he tenido la oportunidad de conocer tecnologias
-                        como HTML, Css, C#, PHP, JavaScript y Python.</p>
+                    <p class="h5 text-center">Soy Juan Andrés Arango Salazar, tengo 16 años, soy un desarrollador front
+                        end, me gustan los diseños modernos y minimalistas, soy una persona autodidacta, apasionada por
+                        aprender las nuevas tecnologías. Estudio ingeniería en desarrollo de software, actualmente curso
+                        el segundo semestre dónde he aprendido diferentes tipos de tecnología como: HTML, CSS, C#, PHP,
+                        JavaScript y python.</p>
                 </div>
                 <div class="col-md-6 animateBottom mt-3 ">
                     <img src="img/imgSobreMi.svg" alt="imgSobreMi">
@@ -93,7 +93,8 @@
                     <div class="card mt-3">
                         <img class="card-img-top" src="img/img_exp.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text pb-5">Tengo mas de <b>1 año de experiencia</b>  desarrollando y perfeccionando mis habilidades y conocimiento como un Frond-End Developer. </p>
+                            <p class="card-text pb-5">Tengo mas de <b>1 año de experiencia</b> desarrollando y
+                                perfeccionando mis habilidades y conocimiento como un Frond-End Developer. </p>
                         </div>
                     </div>
                 </div>
@@ -111,7 +112,8 @@
                     <div class="card mt-3 ">
                         <img class="card-img-top" src="img/img_exp_3.png" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text pb-4 mt-2">Desarrollo páginas web con <b> Responsive Design</b> logrando que
+                            <p class="card-text pb-4 mt-2">Desarrollo páginas web con <b> Responsive Design</b> logrando
+                                que
                                 se adapten a todo tipo de dispositivos tanto moviles como de escritorio.</p>
                         </div>
                     </div>

@@ -19,6 +19,25 @@
     <script src="js/scrollreveal.js"></script>
     <!-- alerts -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- chat -->
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = 'c0dae91a8251dc6c6e7ef2f7044aebfe89a9db58';
+        window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
 </head>
 
 <body>
@@ -156,9 +175,9 @@
                 </div>
                 <div class="col-md-6 animateRight">
                     <p class="h5 text-center mt-5">
-                    Actualmente estoy certificado como desarrollador web con mas de 2 años de experiencia,
-                    las habilidades blandas que mas resaltan en mi son la comunicación, liderazgo y trabajo en 
-                    equipo, me considero una persona responsable, humana y que siempre quiere aprender cosas nuevas.
+                        Actualmente estoy certificado como desarrollador web con mas de 2 años de experiencia,
+                        las habilidades blandas que mas resaltan en mi son la comunicación, liderazgo y trabajo en
+                        equipo, me considero una persona responsable, humana y que siempre quiere aprender cosas nuevas.
                     </p>
                 </div>
             </div>
